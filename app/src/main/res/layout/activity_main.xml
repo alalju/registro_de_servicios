@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00BFFF"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#00BFFF"
+        android:textAlignment="center"
+        >
+
+        <TextView
+            android:background="#00BFFF"
+            android:layout_width="257dp"
+            android:layout_height="37dp"
+            android:text="Administrador de servicios"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.656" />
+
+        <ImageView
+            android:layout_width="173dp"
+            android:layout_height="94dp"
+            android:src="@drawable/apoyo_tecnico_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.127" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="52dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/esquinas_redondeadas"
+            >
+            <FrameLayout
+                android:id="@+id/botonCliente"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/esquinas_redondeadas_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.162"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/grupo"
+                    android:padding="5dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="-135dp"
+                    tools:layout_editor_absoluteY="-46dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:text="Clientes"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/botonServicios"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="90dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.819"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/esquinas_redondeadas_3"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/servicios"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/tienda"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="-135dp"
+                    tools:layout_editor_absoluteY="-46dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:text="Servicios"
+                    android:textAlignment="center"
+                    tools:ignore="RtlCompat" />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="Menu Principal"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.06"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

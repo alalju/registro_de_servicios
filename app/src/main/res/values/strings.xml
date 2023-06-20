@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Administrador de Servicios</string>
+    <string name="clientes_titulo">Visualiza tus clientes</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidoM">Apellido Materno</string>
+    <string name="apellidoP">Apellido Paterno</string>
+    <string name="edad"> Edad </string>
+    <string name="telefono">Telefono</string>
+    <string name="correo"> Email </string>
+    <string name="guardar"> Guardar </string>
+    <string name="cancelar"> Cancelar </string>
+    <string name="servicio"> Servicio </string>
+    <string name="cliente"> Cliente </string>
+    <string name="inicio"> Fecha de inicio </string>
+    <string name="fin"> Fecha de termino </string>
+    <string name="concepto"> concepto de pago </string>
+    <string name="monto"> Monto del pago </string>
+    <string name="estado"> Estado del pago </string>
+    <string name="subscripcion"> Tipo de subscripción </string>
+    <string name="title_activity_ver_servicio">VerServicioActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
